@@ -18,4 +18,4 @@ mvn spring-boot:run
 
 once the application is started, then user can invoke Rest Call either through CURL command or RestClient like Postman 
 
-GET : [hostname]:[portnumber]/accountsr
+GET : [hostname]:[portnumber]/accounts
