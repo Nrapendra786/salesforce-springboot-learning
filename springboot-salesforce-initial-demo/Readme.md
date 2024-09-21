@@ -20,4 +20,7 @@ cd [path to application]
 mvn spring-boot:run
 once application is started, then user can invoke following 
 
-GET: [hostname]:[portnumber]/accounts
+GET : [hostname]:[portnumber]/accounts
+test1
+
+
