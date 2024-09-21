@@ -10,14 +10,12 @@ Required Steps for Salesforce
 # create the SpringBoot Application
 1) create spring boot application using spring initializer and include web, lombok and other dependencies.
 2) create basic RestExample for Account(mentioned in the code)
-3) create secret.properties to make sure that user must not share credentials on github
-4) set secret.properties in .gitignore
+3) set credentials in environment variables and referred them in application.properties file using ${VARIABLE_NAME} 
 
 # start the application
 cd [path to application]
 mvn spring-boot:run
 
-once the application is started, then user can invoke following Rest Call 
-either through CURL command or RestClient like Postman 
+once the application is started, then user can invoke Rest Call either through CURL command or RestClient like Postman 
 
-GET : [hostname]:[portnumber]/accounts
+GET : [hostname]:[portnumber]/accountsr
